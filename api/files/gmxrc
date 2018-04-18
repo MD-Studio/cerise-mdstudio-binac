@@ -1,0 +1,6 @@
+# Load modules
+
+module load chem/gromacs/2016-gnu-4.9
+
+# Environmental variable
+GMXRC_MDSTUDIO=/opt/bwhpc/common/chem/gromacs/2016-gnu-4.9/bin/GMXRC.bash
