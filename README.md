@@ -1,5 +1,4 @@
-
-
+[![Docker Build Status](https://img.shields.io/docker/build/mdstudio/cerise-mdstudio-binac.svg)](https://hub.docker.com/r/mdstudio/cerise-mdstudio-binac/)
 # Cerise specialisation for MDStudio 
 
 This repository contains a Cerise specialisation for MDStudio running
