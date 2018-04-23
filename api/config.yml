@@ -3,12 +3,12 @@ compute-resource:
   files:
     protocol: sftp
     location: login01.binac.uni-tuebingen.de
-    path: /home/$CERISE_USERNAME/.cerise
+    path: /home/st/st_st/$CERISE_USERNAME/.cerise
 
   jobs:
     protocol: ssh
     location: login01.binac.uni-tuebingen.de
     scheduler: torque
-    cwl-runner: $CERISE_API_FILES/cerise/cwltiny.py
+    cwl-runner: $CERISE_API_FILES/mdstudio/github/cerise-mdstudio-share-data/scripts/wrap_cwltiny.sh
     slots-per-node: 4
     queue-name: short
